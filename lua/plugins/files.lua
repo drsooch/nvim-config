@@ -5,6 +5,12 @@ return {
         keys = {
             { "<leader>ft", "<cmd>NvimTreeToggle<cr>", mode = "n" },
         },
-        config = true
+        opts = {
+            filters = {
+                custom = {
+                    "\\.git"
+                }
+            }
+        }
     },
 }

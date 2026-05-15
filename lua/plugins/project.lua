@@ -4,6 +4,9 @@ return {
         dependencies = {
             "shatur/neovim-session-manager"
         },
+        keys = {
+            { "<leader>p", "<cmd>NeovimProjectDiscover<cr>", mode = "n" }
+        },
         opts = {
             lazy = false,
             picker = {
