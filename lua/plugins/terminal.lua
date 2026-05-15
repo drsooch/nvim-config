@@ -11,7 +11,9 @@ return {
             {"<C-w>", [[<C-\><C-n><C-w>]], mode = "t"}
         },
         opts = {
-            open_mapping = "<leader>to"
+            open_mapping = "<leader>to",
+            terminal_mappings = false,
+            insert_mappings = false,
         }
     }
 }
