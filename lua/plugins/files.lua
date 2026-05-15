@@ -6,9 +6,10 @@ return {
             { "<leader>ft", "<cmd>NvimTreeToggle<cr>", mode = "n" },
         },
         opts = {
+            sync_root_with_cwd = true,
             filters = {
                 custom = {
-                    "\\.git"
+                    "^.git$"
                 }
             }
         }

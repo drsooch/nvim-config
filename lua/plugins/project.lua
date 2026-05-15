@@ -13,6 +13,7 @@ return {
                 type = "telescope"
             },
             projects = {
+                "~/.config/nvim",
                 "~/code/haskell/*",
                 "~/code/rust/*",
                 "~/code/ocaml/*",
