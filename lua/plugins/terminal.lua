@@ -1,6 +1,6 @@
 return {
     {
-        "akinsho/toggleterm.nvim", 
+        "akinsho/toggleterm.nvim",
         lazy = false,
         keys = {
             {"<esc>", [[<C-\><C-n>]], mode = "t"},

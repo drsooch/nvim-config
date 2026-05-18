@@ -1,5 +1,5 @@
 -- Keymappings
--- 
+--
 -- Keymapping modes:
 -- "n" = normal
 -- "i" = insert

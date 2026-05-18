@@ -10,7 +10,14 @@ return {
         opts = {
             indent = {
                 char = "┊"
-         },
-     },
+            },
+        },
+    },
+    {
+        "cappyzawa/trim.nvim",
+        lazy = false,
+        opts = {
+            highlight = true,
+        }
     }
 }

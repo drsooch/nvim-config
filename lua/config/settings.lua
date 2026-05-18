@@ -28,4 +28,3 @@ vim.o.tabstop = 4
 
 vim.opt.listchars:append({space = '∙'})
 vim.o.list = true
-
