@@ -13,7 +13,7 @@
 -- ""  = normal, visual, selection, operator
 
 -- turn off highlighting
-vim.keymap.set("", "<C-b>", ":noh<cr>")
+vim.keymap.set("", "<C-b>", "<cmd>noh<cr>")
 
 -- Window movement
 vim.keymap.set("", "<C-j>", "<C-W>j")
@@ -24,3 +24,4 @@ vim.keymap.set("", "<C-l>", "<C-W>l")
 -- first non-blank
 vim.keymap.set("", "0", "^")
 
+vim.keymap.set("n", "<C-p>l", "<cmd>Lazy<cr>")

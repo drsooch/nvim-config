@@ -9,4 +9,5 @@ vim.g.loaded_netrwPlugin = 1
 require("config.lazy")
 require("config.settings")
 require("config.keymap")
+require("config.lsp")
 
