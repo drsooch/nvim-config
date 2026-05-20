@@ -16,5 +16,18 @@ return {
         "https://github.com/nvim-treesitter/nvim-treesitter",
         lazy = false,
         build = ":TSUpdate"
+    },
+    {
+        "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+        opts = {
+            completions = {
+                lsp = {
+                    enabled = true
+                }
+            },
+            pipe_table = {
+                preset = "round"
+            },
+        }
     }
 }
