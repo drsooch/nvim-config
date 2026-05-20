@@ -10,3 +10,13 @@ require("config.lazy")
 require("config.settings")
 require("config.keymap")
 require("config.lsp")
+
+-- tree-sitter cli must be on PATH
+require("nvim-treesitter").install {
+    "rust",
+    "haskell",
+    "python",
+    "lua",
+    "ocaml",
+    "go",
+}

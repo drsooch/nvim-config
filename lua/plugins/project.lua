@@ -19,6 +19,11 @@ return {
                 "~/code/ocaml/*",
                 "~/code/go/*",
             }
-        }
+        },
+        init = function()
+            -- enable saving the state of plugins in the session
+            -- save global variables that start with an uppercase letter and contain at least one lowercase letter.
+            vim.opt.sessionoptions:append("globals")
+        end,
     }
 }
