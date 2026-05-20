@@ -16,8 +16,6 @@ return {
     {
         "cappyzawa/trim.nvim",
         lazy = false,
-        opts = {
-            highlight = true,
-        }
+        opts = {}
     }
 }
