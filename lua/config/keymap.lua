@@ -24,4 +24,7 @@ vim.keymap.set("", "<C-l>", "<C-W>l")
 -- first non-blank
 vim.keymap.set("", "0", "^")
 
-vim.keymap.set("n", "<C-p>l", "<cmd>Lazy<cr>")
+-- Buffer Management
+vim.keymap.set("n", "<leader>bn", "<cmd>bnext<cr>")
+vim.keymap.set("n", "<leader>bp", "<cmd>bprev<cr>")
+vim.keymap.set("n", "<leader>bk", "<cmd>bdelete<cr>")

@@ -21,3 +21,5 @@ require("lazy").setup({
     },
     checker = { enabled = true },
 })
+
+vim.keymap.set("n", "<C-p>l", "<cmd>Lazy<cr>")
