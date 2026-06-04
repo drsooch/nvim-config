@@ -1,4 +1,4 @@
-vim.lsp.enable("rust_analyzer")
+vim.treesitter.start()
 
 -- Remove standard LSP keymappings
 vim.keymap.del({"n", "v"}, "gra")
