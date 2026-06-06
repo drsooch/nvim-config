@@ -1,5 +1,3 @@
-vim.treesitter.start()
-
 -- Remove standard LSP keymappings
 vim.keymap.del({"n", "v"}, "gra")
 vim.keymap.del("n", "gri")

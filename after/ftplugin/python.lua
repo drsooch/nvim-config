@@ -1,3 +1,4 @@
+vim.treesitter.start()
 vim.lsp.config("ty", {
     capabilities = require("cmp_nvim_lsp").default_capabilities()
 })
