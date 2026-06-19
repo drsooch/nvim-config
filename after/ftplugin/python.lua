@@ -5,4 +5,4 @@ vim.lsp.config("ty", {
 
 
 vim.lsp.enable("ruff")
-vim.lsp.enabled("ty")
+vim.lsp.enable("ty")
