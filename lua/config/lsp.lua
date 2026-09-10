@@ -22,6 +22,9 @@ vim.keymap.set("n", "<leader>cr", vim.lsp.buf.rename, { desc = "rename" })
 -- Show Document Symbol is handled by Telescope plugin for now
 -- vim.keymap.set("n", "<leader>cj", vim.lsp.buf.document_symbol, { desc = "document symbol" })
 vim.keymap.set("n","<leader>cf", vim.lsp.buf.format, { desc = "format" })
+--
+-- LSP Diagnostic Hover
+vim.keymap.set("n", "<leader>cX", vim.diagnostic.open_float, { desc = "diagnostic hover"})
 
 vim.lsp.codelens.enable(true)
 vim.lsp.inlay_hint.enable(true)
