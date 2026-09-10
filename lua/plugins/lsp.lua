@@ -63,14 +63,10 @@ return {
                     ["<CR>"] = cmp.mapping.confirm({ select = true }),
                 }),
                 sources = cmp.config.sources({
-                    -- {
-                        { name = "nvim_lsp" },
-                        { name = "nvim_lsp_signature_help" },
-                    -- },
-                    -- {
-                        { name = "buffer" },
-                        { name = "path" },
-                    -- }
+                    { name = "nvim_lsp" },
+                    { name = "nvim_lsp_signature_help" },
+                    { name = "buffer" },
+                    { name = "path" },
                 }),
                 sorting = {
                     priority_weight = 2,
