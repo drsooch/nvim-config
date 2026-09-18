@@ -6,6 +6,9 @@ vim.g.maplocalleader = " "
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- vimgrep searches all files in directory (recursively)
+vim.opt.grepprg = "rg --vimgrep --uu $* ."
+
 require("config.lazy")
 require("config.settings")
 require("config.keymap")
